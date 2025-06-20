@@ -1,0 +1,7 @@
+Langchain is specially used for LLM powered applications.
+
+Langchain  -> Chaining  -> Focus on Sequential Execution of process
+* In Langchain, everything happens in sequential order So we call it as Directed Acyclic Graph(DAG)
+
+LangGraph: We can create stateful Multi AI Agents Applications where Agents will be communicating with themselves to solve complex workflow.
+* They follow the graph structure and it is also going to maintain information which will be shared within the Nodes that is why it is called stategraph.

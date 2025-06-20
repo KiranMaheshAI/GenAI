@@ -5,3 +5,4 @@ langchain_groq
 langchain_openai
 langchain_huggingface
 sentence_transformers
+pypdf
