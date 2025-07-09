@@ -6,3 +6,6 @@ langchain_openai
 langchain_huggingface
 sentence_transformers
 pypdf
+wikipedia
+accelerate
+faiss
