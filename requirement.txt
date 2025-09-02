@@ -8,4 +8,16 @@ sentence_transformers
 pypdf
 wikipedia
 accelerate
-faiss
+langchain-core
+python-dotenv
+pydantic
+unstructured[all-docs]
+pillow
+lxml
+poppler-utils
+langchain_astradb
+duckduckgo-search
+pyowm
+arxiv
+yfinance
+xmltodict
