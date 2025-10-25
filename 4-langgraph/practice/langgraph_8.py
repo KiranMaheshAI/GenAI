@@ -1,7 +1,7 @@
 from typing import Annotated, Sequence, TypedDict
 from dotenv import load_dotenv
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage, ToolMessage
-from langchain.openai import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langchain_core.tools import tool
@@ -94,7 +94,7 @@ def print_messages(messages):
 graph = StateGraph(AgentState)
 graph.add_node("our_agent", our_agent)
 graph.add_node("tool_node", ToolNode(tools=tools))
-graph.set_entry_point("agent")
+graph.set_entry_point("our_agent")
 graph.add_conditional_edges(
     "our_agent",
     should_continue,
